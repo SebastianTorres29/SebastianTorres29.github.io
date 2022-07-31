@@ -1,8 +1,30 @@
+element.style {
+    padding-top: 50px;
+    min-height: 100%;
+    position: relative;
+    height: auto !important;
+    padding-bottom: 45px !important;
+}
 
 
 
-    
 
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbar  {
+        float: none;
+        width: 100%;
+        color: blue;
+    }
     
 
 .body {
@@ -17,3 +39,17 @@
 }
 
 
+}
+
+@font-face {
+    font-family: SQMarket-Medium;
+    font-style: normal;
+    font-weight: 500;
+    src: url("/assets/css/sqmarket-medium.woff2") format("woff2");
+}
+
+.footer-wrap {
+    width: 100%;
+    background: #ffffff;
+    border-top: 2px solid #ffffff;
+}
